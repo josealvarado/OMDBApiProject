@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBA14B4B1AB9FB00005624D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA14B4A1AB9FB00005624D9 /* AppDelegate.swift */; };
+		CBA14B4E1AB9FB00005624D9 /* OMDBProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CBA14B4C1AB9FB00005624D9 /* OMDBProject.xcdatamodeld */; };
+		CBA14B501AB9FB00005624D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA14B4F1AB9FB00005624D9 /* ViewController.swift */; };
+		CBA14B531AB9FB00005624D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA14B511AB9FB00005624D9 /* Main.storyboard */; };
+		CBA14B551AB9FB00005624D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA14B541AB9FB00005624D9 /* Images.xcassets */; };
+		CBA14B581AB9FB00005624D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBA14B561AB9FB00005624D9 /* LaunchScreen.xib */; };
+		CBA14B641AB9FB00005624D9 /* OMDBProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA14B631AB9FB00005624D9 /* OMDBProjectTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBA14B5E1AB9FB00005624D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBA14B3D1AB9FB00005624D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBA14B441AB9FB00005624D9;
+			remoteInfo = OMDBProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBA14B451AB9FB00005624D9 /* OMDBProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMDBProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA14B491AB9FB00005624D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBA14B4A1AB9FB00005624D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBA14B4D1AB9FB00005624D9 /* OMDBProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OMDBProject.xcdatamodel; sourceTree = "<group>"; };
+		CBA14B4F1AB9FB00005624D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBA14B521AB9FB00005624D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBA14B541AB9FB00005624D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CBA14B571AB9FB00005624D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CBA14B5D1AB9FB00005624D9 /* OMDBProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OMDBProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA14B621AB9FB00005624D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBA14B631AB9FB00005624D9 /* OMDBProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMDBProjectTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBA14B421AB9FB00005624D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA14B5A1AB9FB00005624D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBA14B3C1AB9FB00005624D9 = {
+			isa = PBXGroup;
+			children = (
+				CBA14B471AB9FB00005624D9 /* OMDBProject */,
+				CBA14B601AB9FB00005624D9 /* OMDBProjectTests */,
+				CBA14B461AB9FB00005624D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBA14B461AB9FB00005624D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBA14B451AB9FB00005624D9 /* OMDBProject.app */,
+				CBA14B5D1AB9FB00005624D9 /* OMDBProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBA14B471AB9FB00005624D9 /* OMDBProject */ = {
+			isa = PBXGroup;
+			children = (
+				CBA14B4A1AB9FB00005624D9 /* AppDelegate.swift */,
+				CBA14B4F1AB9FB00005624D9 /* ViewController.swift */,
+				CBA14B511AB9FB00005624D9 /* Main.storyboard */,
+				CBA14B541AB9FB00005624D9 /* Images.xcassets */,
+				CBA14B561AB9FB00005624D9 /* LaunchScreen.xib */,
+				CBA14B4C1AB9FB00005624D9 /* OMDBProject.xcdatamodeld */,
+				CBA14B481AB9FB00005624D9 /* Supporting Files */,
+			);
+			path = OMDBProject;
+			sourceTree = "<group>";
+		};
+		CBA14B481AB9FB00005624D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBA14B491AB9FB00005624D9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBA14B601AB9FB00005624D9 /* OMDBProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBA14B631AB9FB00005624D9 /* OMDBProjectTests.swift */,
+				CBA14B611AB9FB00005624D9 /* Supporting Files */,
+			);
+			path = OMDBProjectTests;
+			sourceTree = "<group>";
+		};
+		CBA14B611AB9FB00005624D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBA14B621AB9FB00005624D9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBA14B441AB9FB00005624D9 /* OMDBProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA14B671AB9FB00005624D9 /* Build configuration list for PBXNativeTarget "OMDBProject" */;
+			buildPhases = (
+				CBA14B411AB9FB00005624D9 /* Sources */,
+				CBA14B421AB9FB00005624D9 /* Frameworks */,
+				CBA14B431AB9FB00005624D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OMDBProject;
+			productName = OMDBProject;
+			productReference = CBA14B451AB9FB00005624D9 /* OMDBProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBA14B5C1AB9FB00005624D9 /* OMDBProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA14B6A1AB9FB00005624D9 /* Build configuration list for PBXNativeTarget "OMDBProjectTests" */;
+			buildPhases = (
+				CBA14B591AB9FB00005624D9 /* Sources */,
+				CBA14B5A1AB9FB00005624D9 /* Frameworks */,
+				CBA14B5B1AB9FB00005624D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBA14B5F1AB9FB00005624D9 /* PBXTargetDependency */,
+			);
+			name = OMDBProjectTests;
+			productName = OMDBProjectTests;
+			productReference = CBA14B5D1AB9FB00005624D9 /* OMDBProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBA14B3D1AB9FB00005624D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = JoseAlvarado;
+				TargetAttributes = {
+					CBA14B441AB9FB00005624D9 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CBA14B5C1AB9FB00005624D9 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CBA14B441AB9FB00005624D9;
+					};
+				};
+			};
+			buildConfigurationList = CBA14B401AB9FB00005624D9 /* Build configuration list for PBXProject "OMDBProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBA14B3C1AB9FB00005624D9;
+			productRefGroup = CBA14B461AB9FB00005624D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBA14B441AB9FB00005624D9 /* OMDBProject */,
+				CBA14B5C1AB9FB00005624D9 /* OMDBProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBA14B431AB9FB00005624D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA14B531AB9FB00005624D9 /* Main.storyboard in Resources */,
+				CBA14B581AB9FB00005624D9 /* LaunchScreen.xib in Resources */,
+				CBA14B551AB9FB00005624D9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA14B5B1AB9FB00005624D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBA14B411AB9FB00005624D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA14B501AB9FB00005624D9 /* ViewController.swift in Sources */,
+				CBA14B4B1AB9FB00005624D9 /* AppDelegate.swift in Sources */,
+				CBA14B4E1AB9FB00005624D9 /* OMDBProject.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA14B591AB9FB00005624D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA14B641AB9FB00005624D9 /* OMDBProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBA14B5F1AB9FB00005624D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBA14B441AB9FB00005624D9 /* OMDBProject */;
+			targetProxy = CBA14B5E1AB9FB00005624D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBA14B511AB9FB00005624D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA14B521AB9FB00005624D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBA14B561AB9FB00005624D9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA14B571AB9FB00005624D9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBA14B651AB9FB00005624D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBA14B661AB9FB00005624D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBA14B681AB9FB00005624D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OMDBProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBA14B691AB9FB00005624D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OMDBProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBA14B6B1AB9FB00005624D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OMDBProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OMDBProject.app/OMDBProject";
+			};
+			name = Debug;
+		};
+		CBA14B6C1AB9FB00005624D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OMDBProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OMDBProject.app/OMDBProject";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBA14B401AB9FB00005624D9 /* Build configuration list for PBXProject "OMDBProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA14B651AB9FB00005624D9 /* Debug */,
+				CBA14B661AB9FB00005624D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBA14B671AB9FB00005624D9 /* Build configuration list for PBXNativeTarget "OMDBProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA14B681AB9FB00005624D9 /* Debug */,
+				CBA14B691AB9FB00005624D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBA14B6A1AB9FB00005624D9 /* Build configuration list for PBXNativeTarget "OMDBProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA14B6B1AB9FB00005624D9 /* Debug */,
+				CBA14B6C1AB9FB00005624D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CBA14B4C1AB9FB00005624D9 /* OMDBProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CBA14B4D1AB9FB00005624D9 /* OMDBProject.xcdatamodel */,
+			);
+			currentVersion = CBA14B4D1AB9FB00005624D9 /* OMDBProject.xcdatamodel */;
+			path = OMDBProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CBA14B3D1AB9FB00005624D9 /* Project object */;
+}
