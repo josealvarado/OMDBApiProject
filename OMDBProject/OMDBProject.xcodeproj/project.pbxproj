@@ -15,6 +15,8 @@
 		CBA14B581AB9FB00005624D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBA14B561AB9FB00005624D9 /* LaunchScreen.xib */; };
 		CBA14B641AB9FB00005624D9 /* OMDBProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA14B631AB9FB00005624D9 /* OMDBProjectTests.swift */; };
 		CBA14B721ABA3A97005624D9 /* SearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA14B711ABA3A97005624D9 /* SearchTableViewController.m */; };
+		CBA14B751ABA758A005624D9 /* ResultTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA14B741ABA758A005624D9 /* ResultTableViewController.m */; };
+		CBA14B851ABB3FAE005624D9 /* UIImage+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA14B841ABB3FAE005624D9 /* UIImage+Helpers.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,10 @@
 		CBA14B6F1ABA3A96005624D9 /* OMDBProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OMDBProject-Bridging-Header.h"; sourceTree = "<group>"; };
 		CBA14B701ABA3A97005624D9 /* SearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTableViewController.h; sourceTree = "<group>"; };
 		CBA14B711ABA3A97005624D9 /* SearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTableViewController.m; sourceTree = "<group>"; };
+		CBA14B731ABA758A005624D9 /* ResultTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultTableViewController.h; path = ../ResultTableViewController.h; sourceTree = "<group>"; };
+		CBA14B741ABA758A005624D9 /* ResultTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultTableViewController.m; path = ../ResultTableViewController.m; sourceTree = "<group>"; };
+		CBA14B831ABB3FAE005624D9 /* UIImage+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Helpers.h"; path = "../UIImage+Helpers.h"; sourceTree = "<group>"; };
+		CBA14B841ABB3FAE005624D9 /* UIImage+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Helpers.m"; path = "../UIImage+Helpers.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +91,11 @@
 			children = (
 				CBA14B4A1AB9FB00005624D9 /* AppDelegate.swift */,
 				CBA14B4F1AB9FB00005624D9 /* ViewController.swift */,
+				CBA14B831ABB3FAE005624D9 /* UIImage+Helpers.h */,
+				CBA14B841ABB3FAE005624D9 /* UIImage+Helpers.m */,
 				CBA14B511AB9FB00005624D9 /* Main.storyboard */,
+				CBA14B731ABA758A005624D9 /* ResultTableViewController.h */,
+				CBA14B741ABA758A005624D9 /* ResultTableViewController.m */,
 				CBA14B701ABA3A97005624D9 /* SearchTableViewController.h */,
 				CBA14B711ABA3A97005624D9 /* SearchTableViewController.m */,
 				CBA14B541AB9FB00005624D9 /* Images.xcassets */,
@@ -222,6 +232,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBA14B751ABA758A005624D9 /* ResultTableViewController.m in Sources */,
+				CBA14B851ABB3FAE005624D9 /* UIImage+Helpers.m in Sources */,
 				CBA14B501AB9FB00005624D9 /* ViewController.swift in Sources */,
 				CBA14B4B1AB9FB00005624D9 /* AppDelegate.swift in Sources */,
 				CBA14B4E1AB9FB00005624D9 /* OMDBProject.xcdatamodeld in Sources */,
